@@ -1,0 +1,145 @@
+:root{
+    --lightgreen:#186F65;
+    --lightcream:#B5CB99;
+    --cream:#FCE09B;
+    --white:#FCFFE7
+
+}
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    user-select: none;
+}
+.landing{
+    background-image: url(/pexels-afta-putta-gunawan-683039\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    opacity: 0.80;
+    color: var(--white);
+
+}
+header a{
+    text-decoration: none;
+    color: var(--cream);
+    
+}
+header{
+    display: flex; 
+    padding: 1em; 
+    
+}
+#logo{
+    flex:3;
+    font-size:2em;
+    color: gold;
+    
+}
+nav{
+    flex:2;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color: #B2533E;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color:var(--cream);
+    font-size: 1.9em;
+    font-weight: bolder;
+}
+.tagline2{
+    color:var(--lightcream);
+    font-weight: bold;
+    
+}
+.main div{
+    margin-top: .75em;
+}
+
+.main button{
+    width: 20vw;
+    margin-top: 2em;
+    padding: .90em;
+    border-radius: 10px;
+    border: 2px solid pink;
+    box-shadow: none;
+    background-color:lightpink;
+    color: var(--white);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.callus:hover{
+    font-size: larger;
+    color: lawngreen;
+    font-weight: bolder;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    color:var(--white);
+    background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+    
+}
+#menuheading,#locheading{
+    font-size: 2.5em;
+    color: #B2533E;
+    background-color:#EBE4D1;
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    font-size:1.5em;
+    color: peru;
+}
+table{
+    width: 100%;
+    padding: 2em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(1){
+    justify-self: right;
+}
+.locations{
+    color:var(--white);
+    background: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.locations div{
+    flex:1;
+    padding: 1em;
+    min-width: 220px;
+    
+}
+.locations h2{
+    color: #B2533E;
+    margin-bottom: 1em;
+    margin-top: .5em;
+}
+
+
+    
+    
